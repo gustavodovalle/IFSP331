@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<title>Desportes || Futebol</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+    body,
+    h1,
+    h2 {
+        font-family: "Raleway", sans-serif
+    }
+
+    .bgcor {
+        color: #000 !important;
+        background-color: rgb(235, 255, 234) !important
+    }
+
+    body,
+    html {
+        height: 100%
+    }
+
+    p {
+        line-height: 2;
+        text-align: justify;
+    }
+
+    .texto {
+        float: center;
+        width: 100%
+    }
+
+    .bgimg,
+    .bgimg2 {
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .bgimg {
+        background-image: url("http://www.osul.com.br/wp-content/uploads/2018/06/futebol-1.jpg")
+    }
+
+    .bgimg2 {
+        background-image: url("https://www.torcedores.com/content/uploads/2017/01/bola-na-rede2.jpg")
+    }
+</style>
+
+<body>
+
+    <!-- VOLEI-->
+    <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="inicio">
+        <div class="w3-display-middle w3-text-white w3-center">
+            <h1 class="w3-jumbo">Futebol</h1>
+            <h2>História || Regras</h2>
+            <h2><b>Desportes</b></h2>
+        </div>
+    </header>
+
+    <!-- BARRA INFERIOR -->
+    <div class="w3-bottom w3-hide-small">
+        <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+            <a href="#inicio" style="width:25%" class="w3-bar-item w3-button">Início</a>
+            <a href="#historia" style="width:25%" class="w3-bar-item w3-button">História</a>
+            <a href="#regras" style="width:25%" class="w3-bar-item w3-button">Regras</a>
+            <a href="file:///E:/AW1/PROJETO/IN%C3%8DCIO.html" style="width:25%" class="w3-bar-item w3-button">Menu</a>
+        </div>
+    </div>
+
+    <!-- HISTÓRIA -->
+    <div class="w3-container w3-padding-64 bgcor w3-grayscale-min" id="historia">
+        <div class="w3-content">
+            <h1 class="w3-center w3-text-grey"><b>História</b></h1>
+            <center>
+                <img class="w3-round w3-grayscale-min" src="https://www.suapesquisa.com/uploads/site/charlesmiller.jpg"
+                    style="width:30%;margin:32px 0">
+            </center>
+            <p><i>Embora não se tenha muita certeza sobre os primórdios do futebol, historiadores descobriram vestígios
+                    dos jogos de bola em várias culturas antigas. Estes jogos de bola ainda não eram o futebol, pois não
+                    havia a definição de regras como há hoje, porém demonstram o interesse do homem por este tipo de
+                    esporte desde os tempos antigos.
+
+                    O futebol tornou-se tão popular graças a seu jeito simples de jogar. Basta uma bola, equipes de
+                    jogadores e as traves, para que, em qualquer espaço, crianças e adultos possam se divertir com o
+                    futebol. Na rua, na escola, no clube, no campinho do bairro ou até mesmo no quintal de casa, desde
+                    cedo jovens de vários cantos do mundo começam a praticar o futebol.
+
+                    <h3 class="w3-center w3-text-grey"><b>Futebol no Brasil</b></h3>
+                    <p><i> Nascido no bairro paulistano do Brás, Charles Miller viajou para Inglaterra aos nove anos de
+                            idade
+                            para estudar. Lá tomou contato com o futebol e, ao retornar ao Brasil em 1894, trouxe na
+                            bagagem
+                            a
+                            primeira bola de futebol e um conjunto de regras. Podemos considerar Charles Miller como
+                            sendo o
+                            precursor do futebol no Brasil.
+                            O primeiro jogo de futebol no Brasil foi realizado em 15 de abril de 1895 entre funcionários
+                            de
+                            empresas inglesas que atuavam em São Paulo. Os funcionários também eram de origem inglesa.
+                            Este
+                            jogo
+                            foi entre FUNCIONÁRIOS DA COMPANHIA DE GÁS X CIA. FERROVIÁRIA SÃO PAULO RAILWAY.
+                            O primeiro time a se formar no Brasil foi o SÃO PAULO ATHLETIC, fundado em 13 de maio de
+                            1888.
+                            No início, o futebol era praticado apenas por pessoas da elite, sendo vedada a participação
+                            de
+                            negros em times de futebol.
+                            Em 1950, a Copa do Mundo foi realizada no Brasil, sendo que a seleção brasileira perdeu o
+                            título, em pleno Maracanã, para a seleção Uruguaia (Uruguai 2 x Brasil 1). Em 2014, a Copa
+                            do Mundo de
+                            Futebol será realizada novamente no Brasil.
+                        </i></p>
+                </i>
+            </p><br>
+        </div>
+    </div>
+
+    <!-- SEG. FOTO -->
+    <div class="w3-display-container bgimg2">
+        <div class="w3-display-middle w3-text-white w3-center">
+            <h1 class="w3-jumbo">Futebol</h1><br>
+            <h2>por Desportes</h2>
+        </div>
+    </div>
+
+    <!-- REGRAS -->
+    <div class="w3-container w3-padding-64 bgcor w3-grayscale-min w3-center" id="regras">
+        <div class="w3-content">
+            <h1 class="w3-text-grey"><b>Regras</b></h1>
+            <img class="w3-round-large w3-grayscale-min" src="https://image.flaticon.com/icons/png/512/26/26846.png"
+                style="width:30%;margin:64px 0">
+            <div class="w3-row">
+                <div class="texto">
+                    <h2>Regras</h2>
+                    <p><i>1. Cada partida tem 90 minutos e é dividida em dois tempos de 45 minutos cada.</i></p>
+                    <p><i>2. O jogo é supervisionado por um árbitro.</i></p>
+                    <p><i>3. É proibido o uso das mãos para o manejo da bola. Podem, entretanto, serem usados os pés,
+                            as pernas, o tronco e a cabeça. </i></p>
+                    <p><i>4. Para evitar que os jogadores do time adversário fiquem apenas na área penal do lado
+                            adversário, foi criada a regra do impedimento. Ela consiste em impedir ou invalidar um gol
+                            que tenha
+                            sido feito por um jogador quando não há pelo menos dois jogadores da outra equipe entre ele
+                            a
+                            linha de fundo adversária. </i></p>
+                    <p><i>5. O vencedor da partida é aquele que conseguir fazer o maior número de gols. </i></p>
+                    <p><i>6. Em caso de desempate, podem ser feitas duas prorrogações de 15 minutos ao final dos
+                            tempos. </i></p>
+                    <p><i>7. Quando um jogador comete faltas, ele pode receber um cartão amarelo ou um cartão vermelho.
+                            Se receber dois cartões amarelos ou um cartão vermelho em uma partida, ele é expulso do
+                            jogo. </i></p>
+                    <p><i>8. Caso um jogador execute alguma agressão física sobre um adversário, o juiz deve marcar
+                            pênalti a favor do time adversário. </i></p>
+                    <p><i>9. Quando a bola sai do campo pela linha de fundo, é cobrado escanteio se o último jogador a
+                            tocá-la estava na defensiva, e é cobrado tiro de meta se o último jogador a tocá-la
+                            estava no ataque. Nesse caso, o escanteio é a favor do time atacante e o tiro de meta, a
+                            favor do
+                            time da defensiva. </i></p>
+                    </p>
+
+                </div>
+                <div class="texto">
+                    <h2>Campo</h2>
+                    <p>O futebol é jogado num campo gramado com as medidas máximas de 120m de comprimento e 90m de
+                        largura e mínimas de 90m de comprimento e 45m de largura. Em os internacionais as medidas
+                        máximas são 110m de comprimento por 75m de largura e mínimas, 100m por 64m de largura. O campo é
+                        dividido ao meio por uma linha transversal, no centro da qual é desenhado um círculo com raio de
+                        9,15m, de onde se dá a saída, no início de cada tempo de jogo ou sempre após a marcação de um
+                        gol.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
